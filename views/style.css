@@ -1,0 +1,143 @@
+body {
+    box-sizing: border-box;
+    background-color: bisque;
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul li {
+    flex-basis: 12rem;
+    height: 10rem;
+    border-radius: 20px;
+    border: 1px solid #bfbfbf;
+    background: white;
+    padding: 20px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+    opacity: .7;
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: grey;
+    opacity: .7;
+    padding: 8px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid grey;
+    transition: 1s;
+}
+
+.nav a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    transform: rotate(15deg);
+}
+
+.movie {
+    width: 100%;
+    max-width: 500px;
+}
+
+.movie a {
+    color: grey;
+    opacity: .5;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    transition: .5s;
+}
+
+.movie a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.movie #movieId{
+    color: grey;
+    margin-top: 80px;
+    opacity: .7;
+    font-size: 2.3rem;
+    text-decoration: none;
+    text-align: right;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.movie div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;   
+    font-family:cursive;
+}
+
+.movie div p {
+    color: black;
+    opacity: .3;
+    font-size: .8rem;
+    text-decoration: none;
+    text-align: right;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.movie div p:hover {
+    opacity: 1;
+}
+
+.movie button {
+    border: 2px solid rgba(0, 0, 0, .3);
+    border-radius: 1rem;
+    padding: .6rem 1.8rem; 
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.movie button:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+

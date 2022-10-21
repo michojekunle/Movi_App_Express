@@ -1,0 +1,10 @@
+include ./header.pug 
+form#updateVideo
+    h1 Update Existing Movie
+    input(type="text", placeholder='Movie Id', required)#movieId
+    input(type="text", placeholder='Movie Title' name='name' required)#movieTitle
+    input(type="text", placeholder='Movie Year' name='year' required)#movieYear
+    input(type="text", placeholder='Movie Rating' name='rating' required)#movieRating
+    input(type="submit", value='Submit')
+script
+    include ./uploadVideo.js

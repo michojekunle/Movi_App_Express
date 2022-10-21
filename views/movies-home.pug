@@ -1,0 +1,11 @@
+include ./header.pug 
+ul
+    each movie in movies
+        li 
+            a(href='/'+movie.id)|
+                p #{movie.id}
+                p Name: #{movie.name}
+                div 
+                    p Year: #{movie.year} 
+                    p Rating: #{movie.rating} 
+                         

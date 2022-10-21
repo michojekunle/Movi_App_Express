@@ -1,0 +1,12 @@
+include ./header.pug 
+div.movie 
+    a(href="/") Back
+    h3#movieId #{movie.id}
+    h1#movieName #{movie.name}
+    div 
+        p Year: #{movie.year} 
+        p Rating: #{movie.rating} 
+    button#deleteMovie Delete Movie 
+script
+    include ./main.js
+                         
